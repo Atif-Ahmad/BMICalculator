@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 id = "title"> BMI Calculator</h1>
+       
+        
+        <style>
+			.hide{
+				display:none;
+			}
+
+		</style>
+    </head>
+    <body>  
+       
+
+        <p id = "intro">This is our BMI calculator. Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women (as well as in children). To begin simply type in the requested information. Then our BMI calculator will do the rest. Click Calculate BMI to see your BMI.</p>  
+        <p id = "intro">Not sure what BMI is or how it's calculated? It is either calculated with kilograms and meters squared or with pounds divided by inches squared. Click <a href = "info.html">here</a> to find out more.</p>
+        <br>
+        <br>
+        
+        <h3 id ="instructions">Please enter your weight followed by the units (lbs or kg)</h3>
+    
+ 
+        <p>
+            <label></label>
+			<input id = "Weight" onclick="clearError()" type = "text" name = "Weight" size = "15" maxlength = "30"/> 
+			
+
+            <select onchange="showUnit()" name="weight-unit" id="weight-unit">
+                <option value="kg">kg</option>
+                <option value="lbs">lbs</option>
+            </select>
+			
+		</p> 
+		<p id = "WeightError"></p>
+		
+	
+        <h3 id = "instructions">Please enter your height in <span id = "unit">centimeters</span></h3> 
+        <p> 
+            <input id = "Height" onclick="clearError()" type = "text" name = "Height" size = "15" maxlength = "30"/>
+         </p>
+         <p id = "HeightError"></p>
+         <br>
+         <br>
+         
+         
+         <button onclick = "calcBMI()">Calculate BMI</button>
+         
+         <p id = "final-BMI"></p>
+        
+         
+        <p id = "yourBMI"></p>
+        <p id = "scale">Underweight: Less than 18.5</p>
+        <p id = "scale">Normal Weight: 18.5 to 24.9</p>
+        <p id = "scale">Overweight: 25 to 29.9</p>
+        <p id = "scale">Obesity: Greater than 30</p>
+
+       
+         <header>  
+            <!--<nav> -->
+            <!--    <a href = "info.html">Whats BMI?</a>-->
+            <!--</nav> -->
+        </header>
+        
+        <script src="index.js"></script>
+        
+        <link href = "index.css" type = "text/css" rel = "stylesheet"/> 
+    
+        
+    </body> 
+    
+   
+    
+    
+</html>

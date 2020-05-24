@@ -1,0 +1,100 @@
+#title{
+ font-family:monospace; 
+ position:relative;
+ text-align:center;
+ font-size:36px;
+ color:white;
+}
+
+body{
+    background:lightgray;
+    background-image: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/6686473/910/595/m2/fpnw/wm1/blsqpbv4oxnn0amqxlm4gnq6uktihiwgipuhfp1wbzlg65rp0eknhpfnsy1brmvy-.jpg?1563236861&s=991227b6b7e8cc5744aadbb5e5ab0b21");
+}
+
+p{
+    font-family:monospace;
+    font-size:30px;
+    color:white;
+    text-align:center;
+}
+#scale{
+    font-family:monospace;
+    font-size:21px;
+    color:black;
+    text-align:center;
+    
+}
+#HeightError{
+    color:red;
+    font-family:Times;
+    font-size:12px;
+    position:relative;
+}
+#WeightError{
+    color:red;
+    font-family:Times;
+    font-size:12px;
+    position:relative;
+
+}
+button{
+   background-color:blue; 
+   color:white;
+   position:relative;
+   left:45%;
+   width:150px;
+   height:25px;
+   align-content:center;
+   font-family:monospace;
+}
+#instructions{
+    text-align:center;
+    font-family:monospace;
+    font-size:24px;
+    color:blue;
+}
+input{
+    position:relative;
+    width:272px;
+    border-color:green;
+    height:22px;
+    align-content:center;
+}
+#weight-unit{
+    position:relative;
+    border-color:black;
+    width:200px;
+    height:27px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:50%;
+}
+li{
+    text-align:center;
+    color:black;
+    font-family:monospace;
+    font-size:24px;
+}
+#final-BMI{
+    text-align:center;
+    color:black;
+    font-size:21px;
+    
+}
+#intro{
+  text-align:center;
+  font-family:monospace;
+  font-size:21px;
+  
+}
+
+#yourBMI{
+    text-align:center;
+    font-family:Monospace;
+    color:black;
+    font-size:21px;
+}

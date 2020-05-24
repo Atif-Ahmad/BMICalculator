@@ -1,0 +1,123 @@
+h1 { 
+  color: Black; 
+  background-color: rgb(200,157,3); 
+  opacity: 0.95;  
+  line-height: 1.4em;
+  text-align: center; 
+  text-shadow: 1px 1px 5px #666666; 
+  font-family:monospace;
+}  
+ 
+h2 { 
+text-align: center; 
+font-family:monospace;
+}
+
+h3 { 
+text-align: left; 
+font-family:monospace;
+} 
+
+h4 { 
+text-align: center;  
+font-family:monospace; 
+font-size: 14px; 
+}
+body { 
+  background-color: #EE82EE; 
+  line-height: 1.4em; 
+  font-family:monospace;
+}  
+
+select{
+    position:relative;
+    width:272px;
+    border-color:green;
+    height:22px;
+    align-content:center;
+}
+
+mark { 
+ background: white; 
+ color: black;
+} 
+
+img { 
+border-radius: 8px;
+ 
+border: 1px solid black;
+margin: 5px 10px 10px 0px;
+height: auto;
+float: left;
+} 
+
+input { 
+width:190px;
+height:25px; 
+position:relative;
+align-content:center;
+}
+
+.des { 
+text-align: center; 
+line-height: 1.4em; 
+font-family:monospace; 
+font-size: 16px;
+} 
+
+
+.imageD { 
+line-height: 1.4em; 
+font-size: 28px; 
+font-family:monospace;
+} 
+
+.container3 { 
+background-image: url('https://bhf-cdn.azureedge.net/bhf-blob-prod/0043881_lottie-grey-stripe-wallpaper_360.jpeg');
+}
+
+.container2 { 
+ background-image: url('https://images.everydayhealth.com/images/diet-nutrition/how-many-calories-are-in-a-banana-1440x810.jpg?sfvrsn=be4504bc_0');
+}
+.uw{ 
+    border-style: outset; 
+    border-color: blue; 
+    border-radius: 30px; 
+    font-family:monospace; 
+    font-size: 20px; 
+    line-height: 1.4em;
+}  
+
+.norm { 
+border-style: outset; 
+border-color: green; 
+border-radius: 35px; 
+font-family:monospace; 
+font-size: 20px; 
+line-height: 1.4em;
+}  
+
+.heavy { 
+border-style: outset; 
+border-color: orange; 
+border-radius: 45px; 
+font-family:monospace; 
+font-size: 20px; 
+line-height: 1.4em;
+} 
+
+.ob { 
+border-style: outset; 
+border-color: red; 
+border-radius: 65px; 
+font-family:monospace; 
+font-size: 20px; 
+line-height: 1.4em;
+}
+
+.vidB { 
+background-image: url('https://cdn.trendhunterstatic.com/thumbs/cool-backgrounds.jpeg');
+}
+
+
+

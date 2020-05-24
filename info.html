@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BMI Calculator</title> 
+        <h1> What is BMI?</h1>
+        <script src = "RoofTreeHarbor/index.js"></script>
+    </head>
+    <body> 
+       
+        <hr>
+        <p class="des"> BMI is also known as Body Mass Index. Doctors use BMI as an indicator of whether the person is overweight, normal, or underweight. It also determines the persons overall health risks and whether that person should loose weight.</p>   
+        <hr>  
+        <div class = "vidB"> 
+        <h4>Watch the following YouTube Videos for more information</h4> 
+        
+        <center><iframe width="600" height="337.5" src="https://www.youtube.com/embed/HeGGnClrG8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>   
+        <center><iframe width="600" height="337.5" src="https://www.youtube.com/embed/ZHi_A6tC40Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        <hr> 
+        </div>
+        <br> 
+      <div class = "container3">
+        <hr>  
+        <h2>Below is a chart that describes how healthy you are based on your BMI.</h2>
+        <img src= "https://images.agoramedia.com/everydayhealth/gcms/BMI-in-Adults-722x406.jpg" alt = "This is supposed to be an image which details more about BMI" width = "600" height = "400" /> 
+        <p class = "imageD"> As you can see, a range of 18.5 and below would be classified as underweight. An ideal person would have their BMI range somewhere from 18.5 to 24.9. An Overweight person would have their BMI go from 25 to 29.9, while a BMI of 30 and over is considered obese. Its important to have a normal BMI in order to avoid health problems. See to the drop down menu for tips on how to stay healthy with your current BMI level.<br><br><br></p> 
+           <hr>
+        </div> 
+        <h3>If you would like some dietary recommendations or tips, please select one of the items from the drop down menu.</h3>
+ <div class = "container2">      
+               
+        <select onchange="showDescription()" name="type" id="type"> 
+                <option value="s">Select An Option</option>
+                <option value="u">Underweight Dietary Recommendations</option>
+                <option value="n">Maintaining a Good Diet</option> 
+                <option value="ov">Overweight Dietary Recommendations</option> 
+                <option value="e">How to deal with Obesity</option>
+            </select> 
+            
+      
+        
+ <div class = "calor">  
+    <div class = "weightClass">  
+        <style type = "text/css"> 
+        div.weightClass { 
+            visibility: hidden;
+            
+        }
+        </style>
+        <div id="underweight"> 
+            <div class = "uw">
+            
+        <p><mark>If you have a BMI of 18.5 or below this indicates that you are underweight.Try some of the following tips to gain weight</mark></p> 
+        <ol> 
+            <li><mark>Milk</mark></li>  
+                <ul><mark>Milk offers a mix of fat, carbohydrates, and proteins.It is also an excellent source of vitamins and minerals, including calcium. The protein content of milk makes it a good choice for people trying to build muscle</mark> </ul>  
+        <br>
+            <li><mark>Protein Shakes</mark></li> 
+                <ul><mark>Protein shakes help a person gain weight and muscle most efficiently. They should be consumed after going on a workout</mark></ul>  
+        <br>
+            <li><mark>Rice</mark></li> 
+                <ul><mark>One cup of rice contains about 2,000 calories, and its a good source for carbohydrates, which contribute to gaining weight. Many dishes include rice such as Rissoto, Biryani, Pilaf, Rice Casserole, and more!</mark></ul>  
+        <br>
+            <li><mark>Nuts</mark></li> 
+                <ul><mark>Consuming nuts on a daily basis at a healthy amount will help a person gain weight safely and efficiently. Nuts such as pistachios, walnuts, and almonds are prime examples. Nuts are an amazing snack to include in your trailmizes as well.</mark></ul>  
+        <br>
+            <li><mark>Bread</mark></li> 
+                <ul><mark>Breads are to be considered complex carbohydrates. Whole wheat bread can help with gaining excess weight. </mark></ul>  
+        <br>
+            <li><mark>Any starch!</mark></li> 
+                <ul><mark>Any starch would be beneficial to gaining weight!</mark></ul>
+        </ol> 
+        <hr>  
+        
+         </div>
+        </div>  
+        
+    
+        <div id ="Normal">  
+            <div class = "norm">
+        <p><mark> If you have a BMI between 18.5 and 24.9, then this is considered to be normal. Keep up the good work. Having a healthy BMI is key to remaining as healthy as possible. Especially in times like these, were any sickness would weaken your immune system which woud make you more vulnerable to COVID-19</mark></p>
+        <hr>  
+        </div>
+        </div> 
+        
+        
+        
+        <div id = "overweight"> 
+        <div class = "heavy">
+        <p><mark>If you are overweight, this means your BMI is between 25 and 29.9. This is not the ideal BMI, but with a proper diet a good BMI can be reached. Try some of the following tips to shed a little weight.</mark> </p> 
+        
+        <ol> 
+            <li><mark>Avoid Junk Food</mark></li> 
+                <ul><mark>While junk food may taste great, it is one of the prime causes for overweight or obesity. Examples include fries, burgers, and oreos. Try to eliminate some junk food from your normal diet.</mark> </ul> 
+                <br>
+            <li><mark>Exercise</mark></li> 
+                <ul><mark>When your body exercises, it burns off calories. If you can burn off more calories than you consume, then you are loosing weight. </mark></ul>  
+                <br>
+            <li><mark>Cut Down Your Carbohydrate Intake </mark></li> 
+                <ul><mark>Maintaining a healthy diet with lower carbohydrates and more fiber and protein will help in reducing weight. This would help to reduce obesity as well. </mark></ul> 
+                <br>
+            <li><mark>Talk with your doctor</mark></li> 
+                <ul><mark>Often the best people you should talk to about your health is your doctor!</mark></ul>
+        </ol> 
+        <hr> 
+         </div>
+        </div> 
+        
+        <div id = "obese"> 
+            <div class = "ob">
+        <p><mark>If you have a BMI over 35, then please seek medical attention immediately. Having a BMI over 35 will incresae your chances of death by 88%, and a BMI over 40 will increase your chance of death by 250%. Due to COIV-19, our immune system is now more susceptible than ever to viruses. Any disease would compromise the immune system and allow for a greater chance of COVID-19 to enter the body. Hence, please seek medical attention as soon as possible. </mark></p>
+         </div>
+        </div>
+      </div>
+     </div>    
+    </div> 
+    
+    <center><a href = "index.html"><input type="button" value="Back to Home Page"></a></center> 
+
+     <center><a href = "https://www.cdc.gov/healthyweight/assessing/bmi/index.html"><input type="button" value="CDC Information" onclick= "cdc()"></a></center>
+    
+    
+    <link href = "info.css" type = "text/css" rel = "stylesheet"/> 
+    
+    <script src="info.js"></script>
+    </body> 
+    
+   
+    
+    
+</html>
